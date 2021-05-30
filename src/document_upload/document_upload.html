@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+
+    <title>Upload Document</title>
+
+    <meta charset="UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+          rel="stylesheet">
+    <link href="../style.css" rel="stylesheet">
+    <link href="document_upload_style.css" rel="stylesheet">
+
+    <script src="../scripts.js"></script>
+
+</head>
+
+<body>
+
+  <div>
+      <div id="attachment-container"
+           class="flex-col"
+           onclick="chooseFile()"
+      >
+        <img
+          id="attachment-icon"
+          src="../../assets/attach_file-white-24dp.svg"
+          alt="icon for attaching files"
+          height="50"
+          width="50"
+          class="text"
+        />
+        <blockquote class="text">Click to attach a file of type <b>.txt</b> or <b>.rtf</b></blockquote>
+      </div>
+  </div>
+
+  <div id="doc-container">
+    <div>
+      <p id="placeholder" class="text"></p>
+   </div>
+    <img
+      src="../../assets/attach_file-black-24dp.svg"
+      alt="icon for attaching files"
+      height="50"
+      width="50"
+      class="text"
+      style="margin-top: 12px"
+      onclick="chooseFile()"
+    />
+  </div>
+
+</body>
+
+</html>

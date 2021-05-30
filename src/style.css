@@ -1,0 +1,138 @@
+#border {
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.btn:focus, .input-container:focus, #input-area:focus, #chooser:focus {
+  outline: none;
+}
+
+.btn{
+  background-color: white;
+  border-color: black;
+  border-bottom-width: 1px;
+  border-radius: 8px;
+  font-size: 10pt;
+  height: 24px;
+  margin-left: 4px;
+  margin-top: 12px;
+  width: 80px;
+}
+
+#chooser {
+  border-color: black;
+  border-radius: 4px;
+  border-width: 2px;
+  height: 18px;
+  margin-left: 8px;
+  width: 128px;
+}
+
+#color {
+  background-color: yellow;
+  border-radius: 12px;
+  height: 25px;
+  width: 25px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+footer {
+  background-color: #307DC9;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background-color: #307DC9;
+}
+
+#header-container {
+  display: flex;
+  margin-left: 8px;
+}
+
+.image-container {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.input-container {
+  border-color: black;
+  border-radius: 12px;
+  border-width: 2px;
+  height: 28px;
+  margin-top: 8px;
+  width: 280px;
+}
+
+.label {
+  color: white;
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 12pt;
+  margin-top: 0;
+}
+
+#logo {
+  margin-top: 12px;
+}
+
+main {
+  flex: 1;
+}
+
+#num {
+  padding-left: 4px;
+}
+
+#search-btn {
+  margin-left: 6px;
+  margin-top: 16px;
+}
+
+#tab-container {
+  background-color: #307DC9;
+  margin-top: 16px;
+}
+
+.text {
+  font-family: "Libre Baskerville", sans-serif;
+  font-size: 10pt;
+}
+
+#title {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 24pt;
+  padding-left: 16px;
+  padding-top: 16px;
+}
+
+#toolset-right {
+  display: flex;
+  margin-left: 75%;
+  margin-top: 28%;
+  position: absolute;
+}
+
+#toolset-right div {
+  padding-right: 40px;
+}

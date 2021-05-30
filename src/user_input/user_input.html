@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+
+    <title>User Input</title>
+
+    <meta charset="UTF-8">
+
+    <link href="../style.css" type="text/css" rel="stylesheet">
+    <link href="user_input_style.css" type="text/css" rel="stylesheet">
+
+    <script src="../scripts.js"></script>
+
+</head>
+
+<body>
+    <div>
+      <label>
+        <textarea id="input-area" class="text" placeholder="Enter anything..."></textarea>
+      </label>
+      <div id="output-container">
+        <p id="output-text"  class="text"></p>
+      </div>
+      <div id="btn-set">
+        <button
+          id="edit-btn"
+          class="text btn"
+          onclick="editText()"
+        >
+          Edit
+        </button>
+        <button
+          id="submit-btn"
+          class="text btn"
+          onclick="submitText()"
+        >
+          Submit
+        </button>
+      </div>
+   </div>
+</body>
+
+</html>

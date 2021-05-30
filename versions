@@ -1,0 +1,13 @@
+Version #0
+- Add Icons ✔️
+- Add theme (fonts, colors & style, etc.) ✔
+- User should be able to search through preset text ✔️
+- User should be able to write their own text and search through it for matches ✔️
+- Text that matches search should be highlighted  ✔️
+- Integrate with Gitlab-Github
+
+Version #1 (TBI)
+- User should be able to upload documents and search through them
+
+Version #2 (TBI)
+- User should be able to link Searcher to website and search through it for instance of text

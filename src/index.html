@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+
+  <title>Searcher</title>
+
+  <meta charset="UTF-8">
+  <meta name="application-name" content="Searcher">
+  <meta name="author" content="Omar Barodi">
+  <meta name="description" content="Allows you to search
+                                          through anything you input, documents, and web pages">
+  <meta name="keywords" content="Search, Searcher, filter, control, f">
+  <meta name="theme-color" content="#307DC9">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="apple-touch-icon" href="../assets/policy-black-24dp.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap"
+        rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="user_input/user_input_style.css" rel="stylesheet">
+  <link href="document_upload/document_upload_style.css" type="text/css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="scripts.js" type="text/javascript"></script>
+
+</head>
+
+<body class="flex-col" style="min-height: 100vh;">
+
+  <header class="flex-row">
+    <div id="header-container">
+      <img
+        id="logo"
+        alt="logo"
+        src="../assets/policy-white-24dp.svg"
+        height="75"
+        width="75"
+      />
+      <h1 id="title">Searcher</h1>
+    </div>
+  </header>
+
+  <div id="border"></div>
+
+  <main class="flex-col">
+    <div class="flex-row-center">
+      <label>
+        <input id="search" class="text input-container" type="text" placeholder="Type..." value=""/>
+      </label>
+      <button
+         id="search-btn"
+         class="text btn"
+         onclick="logic()">
+        Search
+      </button>
+    </div>
+
+    <div id="tab-container" class="flex-row-center">
+      <div id="user-input" class="image-container" onclick="selectUserInput()">
+        <div class="flex-col" style="justify-content: center; margin-top: 8px;">
+            <img
+              alt="User Input"
+              src="../assets/keyboard-white-24dp.svg"
+              height="75"
+              width="75"
+              style="margin-left: 4px"
+            />
+            <p class="label">User Input</p>
+        </div>
+      </div>
+      <div id="upload-document"  class="image-container" onclick="selectUploadDocument()">
+        <div class="flex-col" style="justify-content: center; margin-top: 8px; height: 200px">
+          <img
+            alt="Upload Document"
+            src="../assets/publish-white-24dp.svg"
+            height="75"
+            width="75"
+            style="margin-left: 32px"
+          />
+          <p class="label">Upload document</p>
+        </div>
+      </div>
+      <div id="website" class="image-container" onclick="selectWebsite()">
+        <div class="flex-col" style="justify-content: center; margin-top: 8px">
+          <img
+            alt="Website"
+            src="../assets/web-white-24dp.svg"
+            height="75"
+            width="75"
+          />
+          <p class="label"  style="margin-left: 6px">Website</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Add Content Here --->
+  <div id="switchable_content"></div>
+
+  <div id="toolset-right" class="flex-col">
+    <div class="flex-row">
+      <p class="text"><b>Counter:</b></p>
+      <p id="num" class="text"></p>
+    </div>
+    <div class="flex-row">
+      <div id="color"></div>
+      <label>
+        <input id="chooser" type="text" placeholder="Choose Color" value="Yellow">
+      </label>
+    </div>
+  </div>
+
+
+  <footer class="text">
+    <p><b>Created by Omar Barodi &copy; Copyright 2020</b></p>
+  </footer>
+
+</body>
+
+
+
+</html>

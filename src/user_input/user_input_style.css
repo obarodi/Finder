@@ -1,0 +1,41 @@
+body div {
+  display: flex;
+  justify-content: center;
+}
+
+#btn-set {
+  display: flex;
+  flex-direction: column;
+  margin-top: 185px;
+}
+
+#edit-btn {
+  display: none;
+  margin-left: 8px;
+}
+
+#input-area {
+  border: 8px solid black;
+  border-radius: 22px;
+  height: 250px;
+  margin-left: 88px;
+  margin-top: 16px;
+  padding-left: 12px;
+  padding-top: 6px;
+  width: 400px;
+}
+
+#output-container {
+  border: 2px solid white;
+  border-radius: 22px;
+  display: none;
+  margin-top: 16px;
+  padding-left: 12px;
+  padding-top: 6px;
+  width: 400px;
+}
+
+#submit-btn {
+  margin-left: 8px;
+  margin-bottom: 16px;
+}

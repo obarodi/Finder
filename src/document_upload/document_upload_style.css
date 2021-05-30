@@ -1,0 +1,27 @@
+#attachment-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+#attachment-icon {
+  background-color: #307DC9;
+  border-radius: 12.5px;
+  margin-left: 43%;
+}
+
+body div {
+  display: flex;
+  justify-content: center;
+}
+
+#doc-container {
+  display: none;
+  justify-content: center
+}
+
+#doc-container div {
+  display: flex;
+  justify-content: center;
+  width: 40%
+}
